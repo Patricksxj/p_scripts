@@ -1,0 +1,18 @@
+-i https://pypi.tuna.tsinghua.edu.cn/simple
+
+°²×°TensorFlow gpu 1.4
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow-gpu==1.4
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple keras -U --pre
+
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple seaborn
+
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple mlxtend
+
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple xgboost
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple seaborn --upgrade
