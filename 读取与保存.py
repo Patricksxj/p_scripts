@@ -29,7 +29,7 @@ file2.close()
 
 
 
-通过readline输出，对于比较大的文件，这种占用内存比较小。
+#通过readline输出，对于比较大的文件，这种占用内存比较小。
 #coding:utf-8
 
 f = open('word.txt','r')
