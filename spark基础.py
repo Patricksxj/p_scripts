@@ -13,10 +13,10 @@ Created on %(date)s
 import pyspark
 from pyspark import SparkContext
 from pyspark import SparkConf
-conf = SparkConf().setAppName('project1').setMaster('local')
+conf = SparkConf().setAppName('project1').setMaster('local[4]')
+from pyspark.sql import SparkSession
 spark= SparkSession.builder.master('local').appName('project1').getOrCreate()
 sc = SparkContext.getOrCreate(conf)
-from pyspark.sql import SparkSession
 
 
 
