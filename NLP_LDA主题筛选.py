@@ -37,7 +37,7 @@ class MyChapters(object):
 
 
 def split_by_chapter(filepath):
-    text = open(filepath).read()
+    text = open(filepath,encoding='utf-8').read()
     chapter_list = re.split(r'第.{1,3}章\n', text)[1:]
     return chapter_list
 
