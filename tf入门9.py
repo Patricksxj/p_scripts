@@ -71,8 +71,8 @@ h_pool2=max_pool_2x2(h_conv2)   #output size 7*7*64
 
 ## func1 layer ##
 
-W_f1=weight_variable([7*7*64,512])  #input size 7*7*64
-b_fc1=bias_variable([512])
+W_f1=weight_variable([7*7*64,1024])  #input size 7*7*64
+b_fc1=bias_variable([1024])
 #[n_sample,7,7,64] ->> [n_sample,7*7*64]
 h_pool2_flat=tf.reshape(h_pool2,[-1,7*7*64])
 h_fc1=tf.nn.relu(tf.matmul(h_pool2_flat,W_f1)+b_fc1)
@@ -80,7 +80,7 @@ h_fc1_drop=tf.nn.dropout(h_fc1,keep_prob)
 
 
 ## func2 layer ##
-W_f2=weight_variable([512,10])  #input size 7*7*64
+W_f2=weight_variable([1024,10])  #input size 7*7*64
 b_fc2=bias_variable([10])
 prediction=tf.nn.softmax(tf.matmul(h_fc1_drop,W_f2)+b_fc2)
 
@@ -90,19 +90,20 @@ prediction=tf.nn.softmax(tf.matmul(h_fc1_drop,W_f2)+b_fc2)
 #loss
 #cross_entropy=tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=ys,logits=prediction))
 cross_entropy=tf.reduce_mean(-tf.reduce_sum(ys*tf.log(prediction),reduction_indices=[1]))
-train_step=tf.train.AdamOptimizer(0.8e-3).minimize(cross_entropy)
+train_step=tf.train.AdamOptimizer(0.8e-4).minimize(cross_entropy)
 
 sess=tf.Session()
-sess.run(tf.initialize_all_variables())
+sess.run(tf.global_variables_initializer())
 
 result={}
-for i in range(20000):
+for i in range(20001):
     batch_xs,batch_yx=mnist.train.next_batch(500)
     if i %100==0:
-        sess.run(train_step,feed_dict={xs:batch_xs,ys:batch_yx, keep_prob:0.5})
-    if i %100==0:
+        sess.run(train_step,feed_dict={xs:batch_xs,ys:batch_yx, keep_prob:0.6})
+    if i %1000==0:
         testSet = mnist.test.next_batch(1000)
-        result[i].append(compute_accuracy(testSet[0],testSet[1]))
+        result[i]=compute_accuracy(testSet[0],testSet[1])
+        print('第%d轮的准确度是%s:' %(i,result[i]))
 
 sess.close()
 
