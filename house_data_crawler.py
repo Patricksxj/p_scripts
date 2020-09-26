@@ -1,16 +1,27 @@
 rent_type = {'整租': 200600000001, '合租': 200600000002}
 
-city_info = {'北京': [110000, 'bj', {'东城': 'dongcheng', '西城': 'xicheng', '朝阳': 'chaoyang', '海淀': 'haidian',
-                                   '丰台': 'fengtai', '石景山': 'shijingshan', '通州': 'tongzhou', '昌平': 'changping',
-                                   '大兴': 'daxing', '亦庄开发区': 'yizhuangkaifaqu', '顺义': 'shunyi', '房山': 'fangshan',
-                                   '门头沟': 'mentougou', '平谷': 'pinggu', '怀柔': 'huairou', '密云': 'miyun',
-                                   '延庆': 'yanqing'}],
-             '上海': [310000, 'sh', {'静安': 'jingan', '徐汇': 'xuhui', '黄浦': 'huangpu', '长宁': 'changning',
-                                   '普陀': 'putuo', '浦东': 'pudong', '宝山': 'baoshan', '闸北': 'zhabei',
-                                   '虹口': 'hongkou','杨浦': 'yangpu', '闵行': 'minhang', '金山': 'jinshan',
-                                   '嘉定': 'jiading','崇明': 'chongming', '奉贤': 'fengxian', '松江': 'songjiang',
-                                   '青浦': 'qingpu'}],
-             '广州': [440100, 'gz', {'天河': 'tianhe', '越秀': 'yuexiu', '荔湾': 'liwan', '海珠': 'haizhu', '番禺': 'panyu',
+
+
+# city_info = {'北京': [110000, 'bj', {'东城': 'dongcheng', '西城': 'xicheng', '朝阳': 'chaoyang', '海淀': 'haidian',
+#                                    '丰台': 'fengtai', '石景山': 'shijingshan', '通州': 'tongzhou', '昌平': 'changping',
+#                                    '大兴': 'daxing', '亦庄开发区': 'yizhuangkaifaqu', '顺义': 'shunyi', '房山': 'fangshan',
+#                                    '门头沟': 'mentougou', '平谷': 'pinggu', '怀柔': 'huairou', '密云': 'miyun',
+#                                    '延庆': 'yanqing'}],
+#              '上海': [310000, 'sh', {'静安': 'jingan', '徐汇': 'xuhui', '黄浦': 'huangpu', '长宁': 'changning',
+#                                    '普陀': 'putuo', '浦东': 'pudong', '宝山': 'baoshan', '闸北': 'zhabei',
+#                                    '虹口': 'hongkou','杨浦': 'yangpu', '闵行': 'minhang', '金山': 'jinshan',
+#                                    '嘉定': 'jiading','崇明': 'chongming', '奉贤': 'fengxian', '松江': 'songjiang',
+#                                    '青浦': 'qingpu'}],
+#              '广州': [440100, 'gz', {'天河': 'tianhe', '越秀': 'yuexiu', '荔湾': 'liwan', '海珠': 'haizhu', '番禺': 'panyu',
+#                                    '白云': 'baiyun', '黄埔': 'huangpu', '从化': 'conghua', '增城': 'zengcheng',
+#                                    '花都': 'huadu', '南沙': 'nansha'}],
+#              '深圳': [440300, 'sz', {'罗湖区': 'luohuqu', '福田区': 'futianqu', '南山区': 'nanshanqu',
+#                                    '盐田区': 'yantianqu', '宝安区': 'baoanqu', '龙岗区': 'longgangqu',
+#                                    '龙华区': 'longhuaqu', '光明区': 'guangmingqu', '坪山区': 'pingshanqu',
+#                                    '大鹏新区': 'dapengxinqu'}]}
+
+
+city_info = {'广州': [440100, 'gz', {'越秀': 'yuexiu', '荔湾': 'liwan', '海珠': 'haizhu', '番禺': 'panyu',
                                    '白云': 'baiyun', '黄埔': 'huangpu', '从化': 'conghua', '增城': 'zengcheng',
                                    '花都': 'huadu', '南沙': 'nansha'}],
              '深圳': [440300, 'sz', {'罗湖区': 'luohuqu', '福田区': 'futianqu', '南山区': 'nanshanqu',
@@ -24,7 +35,14 @@ import re
 import time
 import requests
 from pymongo import MongoClient
-
+import random
+headers = {'Accept': '*/*',
+               'Accept-Language': 'en-US,en;q=0.8',
+               'Cache-Control': 'max-age=0',
+               'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36',
+               'Connection': 'keep-alive',
+               'Referer': 'http://www.baidu.com/'
+               }
 
 class Rent(object):
     """
@@ -40,7 +58,7 @@ class Rent(object):
         mongo_db = os.environ.get('MONGODB_DATABASE', 'Lianjia')
         client = MongoClient(mongo_url)
         self.db = client[mongo_db]
-        self.db['zufang'].create_index('m_url', unique=True)  # 以m端链接为主键进行去重
+        self.db['zufang2'].create_index('m_url', unique=True)  # 以m端链接为主键进行去重
 
     def get_data(self):
         """
@@ -50,7 +68,7 @@ class Rent(object):
         for ty, type_code in self.rent_type.items():  # 整租、合租
             for city, info in self.city_info.items():  # 城市、城市各区的信息
                 for dist, dist_py in info[2].items():  # 各区及其拼音
-                    res_bc = requests.get('https://m.lianjia.com/chuzu/{}/zufang/{}/'.format(info[1], dist_py))
+                    res_bc = requests.get('https://m.lianjia.com/chuzu/{}/zufang/{}/'.format(info[1], dist_py),headers=headers)
                     pa_bc = r"data-type=\"bizcircle\" data-key=\"(.*)\" class=\"oneline \">"
                     bc_list = re.findall(pa_bc, res_bc.text)
                     self._write_bc(bc_list)
@@ -77,8 +95,9 @@ class Rent(object):
                                     idx += 1
                                     if total/30 <= idx:
                                         has_more = 0
-                                    # time.sleep(random.random())
-                                except:
+                                    #time.sleep(random.random())
+                                except Exception as e:
+                                    print('Failed to upload to ftp: '+ str(e))
                                     print('链接访问不成功，正在重试！')
 
     def _parse_record(self, data, item):
@@ -121,7 +140,7 @@ class Rent(object):
                     item['latitude'] = None
                     item['distance'] = None
 
-                self.db['zufang'].update_one({'m_url': item['m_url']}, {'$set': item}, upsert=True)
+                self.db['zufang2'].update_one({'m_url': item['m_url']}, {'$set': item}, upsert=True)
                 print('成功保存数据:{}!'.format(item))
 
     @staticmethod
