@@ -4,10 +4,17 @@ import numpy as np
 import pandas as pd
 from utils import BASE_DIR, CONSTANTS, load_data
 from data_processing import data_processing
-from keras.utils import np_utils, plot_model
-from keras.models import Sequential
-from keras.preprocessing.sequence import pad_sequences
-from keras.layers import Bidirectional, LSTM, Dense, Embedding, TimeDistributed
+from tensorflow.python.keras.utils.np_utils import to_categorical
+from tensorflow.python.keras import Sequential
+from tensorflow.python.keras.layers import Bidirectional, LSTM, Dense, Embedding, TimeDistributed
+from tensorflow.python.keras.preprocessing import sequence
+
+
+# import tensorflow as tf
+# print(tf.__version__)
+# print(tf.python.keras.__version__)
+# print(tf.python.keras.__path__)
+#from tensorflow import keras
 
 
 # 模型输入数据
@@ -39,10 +46,10 @@ def input_data_for_model(input_shape):
     sentences = [sentence for sentence in grouped_input_data]
 
     x = [[word_dictionary[word[0]] for word in sent] for sent in sentences]
-    x = pad_sequences(maxlen=input_shape, sequences=x, padding='post', value=0)
+    x = sequence.pad_sequences(maxlen=input_shape, sequences=x, padding='post', value=0)
     y = [[label_dictionary[word[2]] for word in sent] for sent in sentences]
-    y = pad_sequences(maxlen=input_shape, sequences=y, padding='post', value=0)
-    y = [np_utils.to_categorical(label, num_classes=label_size + 1) for label in y]
+    y = sequence.pad_sequences(maxlen=input_shape, sequences=y, padding='post', value=0)
+    y = [to_categorical(label, num_classes=label_size + 1) for label in y]
 
     return x, y, output_dictionary, vocab_size, label_size, inverse_word_dictionary
 
@@ -84,7 +91,7 @@ def model_train():
     # 模型保存
     model_save_path = CONSTANTS[0]
     lstm_model.save(model_save_path)
-    plot_model(lstm_model, to_file='%s/LSTM_model.png' % BASE_DIR)
+    utils.plot_model(lstm_model, to_file='%s/LSTM_model.png' % BASE_DIR)
 
     # 在测试集上的效果
     N = test_x.shape[0]  # 测试的条数

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/从新学NLP" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/从新学NLP/用深度学习实现命名实体识别（NER）" isTestSource="false" />
+    </content>
     <content url="jar://$MODULE_DIR$/../../SPARK/python/lib/py4j-0.10.4-src.zip!/" />
     <content url="jar://$MODULE_DIR$/../../spark/python/lib/pyspark.zip!/" />
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />

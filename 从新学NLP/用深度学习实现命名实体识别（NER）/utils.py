@@ -3,8 +3,9 @@ import numpy as np
 import pandas as pd
 
 # basic settings for DL_4_NER Project
-BASE_DIR = "F://NERSystem"
+BASE_DIR = "D:\Data_Science\p_scripts\从新学NLP\用深度学习实现命名实体识别（NER）"
 CORPUS_PATH = "%s/train.txt" % BASE_DIR
+
 
 KERAS_MODEL_SAVE_PATH = '%s/Bi-LSTM-4-NER.h5' % BASE_DIR
 WORD_DICTIONARY_PATH = '%s/word_dictionary.pk' % BASE_DIR
@@ -25,13 +26,13 @@ def load_data():
     with open(CORPUS_PATH, 'r') as f:
         text_data = [text.strip() for text in f.readlines()]
     text_data = [text_data[k].split('\t') for k in range(0, len(text_data))]
-    index = range(0, len(text_data), 3)
+    index = range(0, len(text_data), 3) #将数据做拆分
 
     # Transforming data to matrix format for neural network
     input_data = list()
     for i in range(1, len(index) - 1):
-        rows = text_data[index[i-1]:index[i]]
-        sentence_no = np.array([i]*len(rows[0]), dtype=str)
+        rows = text_data[index[i-1]:index[i]] #获取最新一组
+        sentence_no = np.array([i]*len(rows[0]), dtype=str) #增加序列号，序列号为循环次数
         rows.append(sentence_no)
         rows = np.array(rows).T
         input_data.append(rows)
@@ -40,3 +41,6 @@ def load_data():
                                columns=['word', 'pos', 'tag', 'sent_no'])
 
     return input_data
+
+a=load_data().head(15)
+print(a)

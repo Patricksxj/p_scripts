@@ -19,12 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0c235bc-aa3f-4abe-8ff1-679a3d61e0a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/从新学NLP/1.词袋模型及句子相似度.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/从新学NLP/2.用gensim建立余弦相似度.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/从新学NLP/3.TF_IDF.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/从新学NLP/3.gensim中tfidf.py" afterDir="false" />
+    <list default="true" id="c0c235bc-aa3f-4abe-8ff1-679a3d61e0a8" name="Default Changelist" comment="Default Changelist">
+      <change beforePath="$PROJECT_DIR$/.idea/p_scripts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/p_scripts.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/从新学NLP/用深度学习实现命名实体识别（NER）/Bi_LSTM_Model_training.py" beforeDir="false" afterPath="$PROJECT_DIR$/从新学NLP/用深度学习实现命名实体识别（NER）/Bi_LSTM_Model_training.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/从新学NLP/用深度学习实现命名实体识别（NER）/data_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/从新学NLP/用深度学习实现命名实体识别（NER）/data_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/从新学NLP/用深度学习实现命名实体识别（NER）/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/从新学NLP/用深度学习实现命名实体识别（NER）/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,20 +38,6 @@
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>/</find>
-      <find>\\</find>
-      <find>grey_color_func</find>
-      <find>n_steps</find>
-      <find>zufang2</find>
-      <find>zufang</find>
-      <find>m_url</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>\</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -91,7 +77,7 @@
       <recent name="D:\Data_Science\p_scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3.gensim中tfidf">
+  <component name="RunManager" selected="Python.Bi_LSTM_Model_training">
     <configuration name="p_scripts" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="p_scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,27 +93,6 @@
       <option name="additionalOptions" value="" />
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1.词袋模型及句子相似度" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="p_scripts" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/从新学NLP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/从新学NLP/1.词袋模型及句子相似度.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="2.用gensim建立余弦相似度" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -214,6 +179,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Bi_LSTM_Model_training" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="p_scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/从新学NLP/用深度学习实现命名实体识别（NER）" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/从新学NLP/用深度学习实现命名实体识别（NER）/Bi_LSTM_Model_training.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="default_config" type="PythonConfigurationType" factoryName="Python" singleton="false">
       <module name="p_scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,7 +223,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="weixin_crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p_scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,11 +231,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/从新学NLP/用深度学习实现命名实体识别（NER）" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weixin_crawler.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/从新学NLP/用深度学习实现命名实体识别（NER）/utils.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,19 +247,19 @@
     <list>
       <item itemvalue="Python.Anomaly_Detection_Preprocess" />
       <item itemvalue="Python.default_config" />
-      <item itemvalue="Python.weixin_crawler" />
-      <item itemvalue="Python.1.词袋模型及句子相似度" />
       <item itemvalue="Python.3.TF_IDF" />
       <item itemvalue="Python.2.用gensim建立余弦相似度" />
       <item itemvalue="Python.3.gensim中tfidf" />
+      <item itemvalue="Python.utils" />
+      <item itemvalue="Python.Bi_LSTM_Model_training" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Bi_LSTM_Model_training" />
+        <item itemvalue="Python.utils" />
         <item itemvalue="Python.3.gensim中tfidf" />
         <item itemvalue="Python.3.TF_IDF" />
         <item itemvalue="Python.2.用gensim建立余弦相似度" />
-        <item itemvalue="Python.1.词袋模型及句子相似度" />
-        <item itemvalue="Python.1.词袋模型及句子相似度" />
       </list>
     </recent_temporary>
   </component>
@@ -358,17 +344,15 @@
       <option name="project" value="LOCAL" />
       <updated>1553355638667</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Default Changelist">
+      <created>1603590448034</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603590448034</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -387,13 +371,14 @@
       <path value="$PROJECT_DIR$/../Pyspark_Learning" />
     </ignored-roots>
     <MESSAGE value="Add files via upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add files via upload" />
+    <MESSAGE value="Default Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="768" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603551897579">
+    <state x="768" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603599458445">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="768" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1603551897579" />
+    <state x="768" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1603599458445" />
     <state x="845" y="386" key="#通知" timestamp="1603585441706">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -402,22 +387,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1603545361251" />
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1603585812439">
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1603601977092">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1603585812439" />
-    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1603585812439">
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1603601977092" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1603601977092">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1603585812439" />
-    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1603585812439">
+    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1603601977092" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1603601977092">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1603585812439" />
-    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1603585812439">
+    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1603601977092" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1603601977092">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1603585812439" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1603601977092" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1603552367281">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -446,6 +431,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="968" height="533" key="XDebugger.FullValuePopup/0.0.1920.1050@0.0.1920.1050" timestamp="1603586973577" />
+    <state x="773" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603590554763">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="773" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1603590554763" />
     <state x="752" y="424" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601086778117">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

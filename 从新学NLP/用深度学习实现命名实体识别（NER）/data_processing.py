@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 from utils import BASE_DIR, CONSTANTS, load_data
 
+
 # 设置matplotlib绘图时的字体
 mpl.rcParams['font.sans-serif']=['SimHei']
 
