@@ -20,11 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0c235bc-aa3f-4abe-8ff1-679a3d61e0a8" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/captcha-tensorflow/captcha-solver-tf2-4digits-AlexNet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/captcha-tensorflow/datasets/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/captcha-tensorflow/datasets/gen_captcha.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_单元测试.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/单元测试.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/循环求和.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/p_scripts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/p_scripts.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plt绘制一个饼图.py" beforeDir="false" afterPath="$PROJECT_DIR$/plt绘制一个饼图.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/从新学NLP/用深度学习实现命名实体识别（NER）/Bi_LSTM_Model_training.py" beforeDir="false" afterPath="$PROJECT_DIR$/从新学NLP/用深度学习实现命名实体识别（NER）/Bi_LSTM_Model_training.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/从新学NLP/用深度学习实现命名实体识别（NER）/data_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/从新学NLP/用深度学习实现命名实体识别（NER）/data_processing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/从新学NLP/用深度学习实现命名实体识别（NER）/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/从新学NLP/用深度学习实现命名实体识别（NER）/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +69,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -77,7 +84,7 @@
       <recent name="D:\Data_Science\p_scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Bi_LSTM_Model_training">
+  <component name="RunManager" selected="Python.循环求和">
     <configuration name="p_scripts" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="p_scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,7 +102,7 @@
       <option name="ipnbPort" value="8888" />
       <method v="2" />
     </configuration>
-    <configuration name="2.用gensim建立余弦相似度" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="单元测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p_scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,11 +110,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/从新学NLP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Data_Science\p_scripts\从新学NLP\2.用gensim建立余弦相似度.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/单元测试.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3.TF_IDF" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="循环求和" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p_scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,32 +131,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/从新学NLP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/从新学NLP/3.TF_IDF.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="3.gensim中tfidf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="p_scripts" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/从新学NLP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/从新学NLP/3.gensim中tfidf.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/循环求和.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,27 +157,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Anomaly_Detection_Preprocess.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Bi_LSTM_Model_training" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="p_scripts" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/从新学NLP/用深度学习实现命名实体识别（NER）" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/从新学NLP/用深度学习实现命名实体识别（NER）/Bi_LSTM_Model_training.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -223,43 +188,103 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetest for 单元测试.TestCase" type="tests" factoryName="Nosetests" nameIsGenerated="true">
+      <module name="p_scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;单元测试.TestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetest for test_单元测试.new_test" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="p_scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_单元测试.new_test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetest for test_单元测试.new_test.test_case_01" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="p_scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_单元测试.new_test.test_case_01&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetest in test_单元测试.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="p_scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_单元测试.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in 单元测试.py" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="p_scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PYTHONUNBUFFERD" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/从新学NLP/用深度学习实现命名实体识别（NER）" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/从新学NLP/用深度学习实现命名实体识别（NER）/utils.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/单元测试.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.Anomaly_Detection_Preprocess" />
       <item itemvalue="Python.default_config" />
-      <item itemvalue="Python.3.TF_IDF" />
-      <item itemvalue="Python.2.用gensim建立余弦相似度" />
-      <item itemvalue="Python.3.gensim中tfidf" />
-      <item itemvalue="Python.utils" />
-      <item itemvalue="Python.Bi_LSTM_Model_training" />
+      <item itemvalue="Python.单元测试" />
+      <item itemvalue="Python 测试.Nosetest for 单元测试.TestCase" />
+      <item itemvalue="Python 测试.pytest in 单元测试.py" />
+      <item itemvalue="Python 测试.Nosetest for test_单元测试.new_test" />
+      <item itemvalue="Python 测试.Nosetest for test_单元测试.new_test.test_case_01" />
+      <item itemvalue="Python 测试.Nosetest in test_单元测试.py" />
+      <item itemvalue="Python.循环求和" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Bi_LSTM_Model_training" />
-        <item itemvalue="Python.utils" />
-        <item itemvalue="Python.3.gensim中tfidf" />
-        <item itemvalue="Python.3.TF_IDF" />
-        <item itemvalue="Python.2.用gensim建立余弦相似度" />
+        <item itemvalue="Python.循环求和" />
+        <item itemvalue="Python.单元测试" />
+        <item itemvalue="Python 测试.Nosetest for test_单元测试.new_test" />
+        <item itemvalue="Python 测试.Nosetest for test_单元测试.new_test.test_case_01" />
+        <item itemvalue="Python 测试.Nosetest in test_单元测试.py" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603590448034</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Default Changelist">
+      <created>1603602628174</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603602628174</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,54 +407,86 @@
     <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="768" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603599458445">
+    <state x="665" y="140" key="#Nosetest_for_test_单元测试.new_test" timestamp="1605538141439">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="768" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1603599458445" />
+    <state x="665" y="140" key="#Nosetest_for_test_单元测试.new_test.test_case_01" timestamp="1605538061840">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="665" y="140" key="#Nosetest_for_test_单元测试.new_test.test_case_01/0.0.1920.1050@0.0.1920.1050" timestamp="1605538061840" />
+    <state x="665" y="140" key="#Nosetest_for_test_单元测试.new_test/0.0.1920.1050@0.0.1920.1050" timestamp="1605538141439" />
+    <state x="665" y="140" key="#Nosetest_for_单元测试.TestCase" timestamp="1605537131959">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="665" y="140" key="#Nosetest_for_单元测试.TestCase/0.0.1920.1050@0.0.1920.1050" timestamp="1605537131959" />
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605536678679">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605536678679" />
+    <state x="768" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603616751954">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="768" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1603616751954" />
+    <state x="665" y="104" key="#pytest_for_单元测试.TestCase.test_case_01" timestamp="1605537232055">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="665" y="104" key="#pytest_for_单元测试.TestCase.test_case_01/0.0.1920.1050@0.0.1920.1050" timestamp="1605537232055" />
+    <state x="665" y="104" key="#pytest_for_单元测试.TestCase.test_case_02" timestamp="1605536711799">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="665" y="104" key="#pytest_for_单元测试.TestCase.test_case_02/0.0.1920.1050@0.0.1920.1050" timestamp="1605536711799" />
+    <state x="715" y="226" key="#xdebugger.evaluate" timestamp="1605537185135">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="715" y="226" key="#xdebugger.evaluate/0.0.1920.1050@0.0.1920.1050" timestamp="1605537185135" />
     <state x="845" y="386" key="#通知" timestamp="1603585441706">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="845" y="386" key="#通知/0.0.1920.1050@0.0.1920.1050" timestamp="1603585441706" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1603545361251">
+    <state x="859" y="270" width="755" height="509" key="EnvironmentVariablesDialog" timestamp="1605536729348">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1603545361251" />
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1603601977092">
+    <state x="859" y="270" width="755" height="509" key="EnvironmentVariablesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605536729348" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1605919961593">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1603601977092" />
-    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1603601977092">
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605919961593" />
+    <state width="1117" height="284" key="GridCell.Tab.0.bottom" timestamp="1605927226710">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1603601977092" />
-    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1603601977092">
+    <state width="1117" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605927226710" />
+    <state width="1117" height="284" key="GridCell.Tab.0.center" timestamp="1605927226710">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1603601977092" />
-    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1603601977092">
+    <state width="1117" height="284" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605927226710" />
+    <state width="1117" height="284" key="GridCell.Tab.0.left" timestamp="1605927226710">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1603601977092" />
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1603552367281">
+    <state width="1117" height="284" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605927226710" />
+    <state width="1117" height="284" key="GridCell.Tab.0.right" timestamp="1605927226710">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1603552367281" />
-    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1603552367281">
+    <state width="1117" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605927226710" />
+    <state width="1033" height="352" key="GridCell.Tab.1.bottom" timestamp="1605541837979">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1603552367281" />
-    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1603552367281">
+    <state width="1033" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605541837979" />
+    <state width="1033" height="352" key="GridCell.Tab.1.center" timestamp="1605541837979">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1603552367281" />
-    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1603552367281">
+    <state width="1033" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605541837979" />
+    <state width="1033" height="352" key="GridCell.Tab.1.left" timestamp="1605541837978">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1603552367281" />
-    <state x="461" y="169" key="SettingsEditor" timestamp="1603585436676">
+    <state width="1033" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605541837978" />
+    <state width="1033" height="352" key="GridCell.Tab.1.right" timestamp="1605541837979">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1603585436676" />
+    <state width="1033" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605541837979" />
+    <state x="461" y="169" key="SettingsEditor" timestamp="1605541431829">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1605541431829" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1601086865883">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -431,10 +495,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="968" height="533" key="XDebugger.FullValuePopup/0.0.1920.1050@0.0.1920.1050" timestamp="1603586973577" />
+    <state x="268" y="229" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1605535512709">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="268" y="229" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.0.1920.1050@0.0.1920.1050" timestamp="1605535512709" />
     <state x="773" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603590554763">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="773" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1603590554763" />
+    <state x="523" y="68" width="873" height="714" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605541802640">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="523" y="68" width="873" height="714" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1050@0.0.1920.1050" timestamp="1605541802640" />
     <state x="752" y="424" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601086778117">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -447,10 +519,20 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$USER_HOME$/AppData/Local/Temp/Rar$DIa8384.20591/train_word2vec.py</url>
           <line>2</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/单元测试.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/单元测试.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
