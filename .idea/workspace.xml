@@ -27,8 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0c235bc-aa3f-4abe-8ff1-679a3d61e0a8" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/从新学NLP/3.TF_IDF.py" beforeDir="false" afterPath="$PROJECT_DIR$/从新学NLP/4.TF_IDF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/从新学NLP/4.读取腾讯预训练词向量.py" beforeDir="false" afterPath="$PROJECT_DIR$/从新学NLP/6.读取腾讯预训练词向量.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/从新学NLP/6.读取腾讯预训练词向量.py" beforeDir="false" afterPath="$PROJECT_DIR$/从新学NLP/6.读取腾讯预训练词向量.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
       <recent name="D:\Data_Science\p_scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.6.读取腾讯预训练词向量">
+  <component name="RunManager" selected="Python.6.读取腾讯预训练词向量 (1)">
     <configuration name="p_scripts" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="p_scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,6 +99,27 @@
       <option name="additionalOptions" value="" />
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
+      <method v="2" />
+    </configuration>
+    <configuration name="词干还原" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="p_scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/词干还原.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="1.词袋模型及句子相似度" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -165,6 +185,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="6.读取腾讯预训练词向量 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="p_scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/从新学NLP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/从新学NLP/6.读取腾讯预训练词向量.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="6.读取腾讯预训练词向量" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p_scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,27 +240,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Anomaly_Detection_Preprocess.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="词干还原" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="p_scripts" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/词干还原.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,27 +313,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ks指标练习" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="p_scripts" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ks指标练习.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Nosetest for 单元测试.TestCase" type="tests" factoryName="Nosetests" nameIsGenerated="true">
       <module name="p_scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -351,21 +350,22 @@
     <list>
       <item itemvalue="Python.Anomaly_Detection_Preprocess" />
       <item itemvalue="Python.default_config" />
-      <item itemvalue="Python.ks指标练习" />
+      <item itemvalue="Python.1.词袋模型及句子相似度" />
+      <item itemvalue="Python.2.用gensim建立余弦相似度" />
+      <item itemvalue="Python.5.annoy应用" />
+      <item itemvalue="Python.6.读取腾讯预训练词向量 (1)" />
+      <item itemvalue="Python.6.读取腾讯预训练词向量" />
+      <item itemvalue="Python.词干还原" />
       <item itemvalue="Python 测试.Nosetest for 单元测试.TestCase" />
       <item itemvalue="Python 测试.pytest in 单元测试.py" />
-      <item itemvalue="Python.5.annoy应用" />
-      <item itemvalue="Python.2.用gensim建立余弦相似度" />
-      <item itemvalue="Python.1.词袋模型及句子相似度" />
-      <item itemvalue="Python.6.读取腾讯预训练词向量" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.6.读取腾讯预训练词向量 (1)" />
         <item itemvalue="Python.6.读取腾讯预训练词向量" />
         <item itemvalue="Python.1.词袋模型及句子相似度" />
         <item itemvalue="Python.2.用gensim建立余弦相似度" />
         <item itemvalue="Python.5.annoy应用" />
-        <item itemvalue="Python.ks指标练习" />
       </list>
     </recent_temporary>
   </component>
@@ -515,22 +515,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="251" key="GridCell.Tab.0.bottom" timestamp="1615705733428">
+    <state width="1877" height="251" key="GridCell.Tab.0.bottom" timestamp="1615712248633">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1615705733428" />
-    <state width="1877" height="251" key="GridCell.Tab.0.center" timestamp="1615705733427">
+    <state width="1877" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1615712248633" />
+    <state width="1877" height="251" key="GridCell.Tab.0.center" timestamp="1615712248633">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="251" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1615705733427" />
-    <state width="1877" height="251" key="GridCell.Tab.0.left" timestamp="1615705733427">
+    <state width="1877" height="251" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1615712248633" />
+    <state width="1877" height="251" key="GridCell.Tab.0.left" timestamp="1615712248633">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="251" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1615705733427" />
-    <state width="1877" height="251" key="GridCell.Tab.0.right" timestamp="1615705733427">
+    <state width="1877" height="251" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1615712248633" />
+    <state width="1877" height="251" key="GridCell.Tab.0.right" timestamp="1615712248633">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="251" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1615705733427" />
+    <state width="1877" height="251" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1615712248633" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1612072745500">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

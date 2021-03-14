@@ -3,11 +3,9 @@ from collections import OrderedDict
 from gensim.models import KeyedVectors
 from annoy import AnnoyIndex
 
-#file='D:\Data_Science\data\Tencent_AILab_ChineseEmbedding\Tencent_AILab_ChineseEmbedding_Min.txt'
-
 
 #file='D:\Data_Science\data\Tencent_AILab_ChineseEmbedding\Tencent_AILab_ChineseEmbedding.txt'
-#tc_wv_model = KeyedVectors.load_word2vec_format(file, binary=False,limit=200000)
+#tc_wv_model = KeyedVectors.load_word2vec_format(file, binary=False,limit=1000000)
 
 
 #tc_wv_model.save('D:\Data_Science\data\Tencent_AILab_ChineseEmbedding\Tencent_AILab_ChineseEmbedding.bin')
