@@ -1,0 +1,8 @@
+{
+    "num_per_image": 4,
+    "label_size": 10,
+    "label_choices": "0123456789",
+    "n_epoch": 6,
+    "width": 120,
+    "height": 100
+}
